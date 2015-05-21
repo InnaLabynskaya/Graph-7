@@ -7,6 +7,9 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "Node.h"
+#import "Graph.h"
+#import "TFHpple.h"
 
 @interface ViewController : UIViewController
 

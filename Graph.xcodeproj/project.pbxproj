@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CEC079531B05282C00A225B8 /* NodeView.m in Sources */ = {isa = PBXBuildFile; fileRef = CEC079521B05282C00A225B8 /* NodeView.m */; };
+		E92E3AB51B0A07D100CF209C /* LineView.m in Sources */ = {isa = PBXBuildFile; fileRef = E92E3AB41B0A07D100CF209C /* LineView.m */; };
+		E96CC2E31B061458004AD04E /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E96CC2E21B061458004AD04E /* QuartzCore.framework */; };
 		E9B7A1111B03509F0020DEF9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E9B7A1101B03509F0020DEF9 /* main.m */; };
 		E9B7A1141B03509F0020DEF9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E9B7A1131B03509F0020DEF9 /* AppDelegate.m */; };
 		E9B7A1171B03509F0020DEF9 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E9B7A1161B03509F0020DEF9 /* ViewController.m */; };
@@ -14,6 +17,12 @@
 		E9B7A11C1B03509F0020DEF9 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E9B7A11B1B03509F0020DEF9 /* Images.xcassets */; };
 		E9B7A11F1B03509F0020DEF9 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = E9B7A11D1B03509F0020DEF9 /* LaunchScreen.xib */; };
 		E9B7A12B1B0350A00020DEF9 /* GraphTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E9B7A12A1B0350A00020DEF9 /* GraphTests.m */; };
+		E9B7A1351B0351230020DEF9 /* libxml2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = E9B7A1341B0351230020DEF9 /* libxml2.dylib */; };
+		E9B7A13D1B03515E0020DEF9 /* TFHpple.m in Sources */ = {isa = PBXBuildFile; fileRef = E9B7A1381B03515E0020DEF9 /* TFHpple.m */; };
+		E9B7A13E1B03515E0020DEF9 /* TFHppleElement.m in Sources */ = {isa = PBXBuildFile; fileRef = E9B7A13A1B03515E0020DEF9 /* TFHppleElement.m */; };
+		E9B7A13F1B03515E0020DEF9 /* XPathQuery.m in Sources */ = {isa = PBXBuildFile; fileRef = E9B7A13C1B03515E0020DEF9 /* XPathQuery.m */; };
+		E9B7A1431B0351A90020DEF9 /* Node.m in Sources */ = {isa = PBXBuildFile; fileRef = E9B7A1421B0351A90020DEF9 /* Node.m */; };
+		E9B7A1461B03555B0020DEF9 /* Graph.m in Sources */ = {isa = PBXBuildFile; fileRef = E9B7A1451B03555B0020DEF9 /* Graph.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,6 +36,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		CEC079511B05282C00A225B8 /* NodeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NodeView.h; sourceTree = "<group>"; };
+		CEC079521B05282C00A225B8 /* NodeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NodeView.m; sourceTree = "<group>"; };
+		E92E3AB31B0A07D100CF209C /* LineView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LineView.h; sourceTree = "<group>"; };
+		E92E3AB41B0A07D100CF209C /* LineView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LineView.m; sourceTree = "<group>"; };
+		E96CC2E21B061458004AD04E /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		E9B7A10B1B03509F0020DEF9 /* Graph.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Graph.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E9B7A10F1B03509F0020DEF9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E9B7A1101B03509F0020DEF9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -40,6 +54,17 @@
 		E9B7A1241B0350A00020DEF9 /* GraphTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GraphTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E9B7A1291B0350A00020DEF9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E9B7A12A1B0350A00020DEF9 /* GraphTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GraphTests.m; sourceTree = "<group>"; };
+		E9B7A1341B0351230020DEF9 /* libxml2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libxml2.dylib; path = usr/lib/libxml2.dylib; sourceTree = SDKROOT; };
+		E9B7A1371B03515E0020DEF9 /* TFHpple.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TFHpple.h; sourceTree = "<group>"; };
+		E9B7A1381B03515E0020DEF9 /* TFHpple.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TFHpple.m; sourceTree = "<group>"; };
+		E9B7A1391B03515E0020DEF9 /* TFHppleElement.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TFHppleElement.h; sourceTree = "<group>"; };
+		E9B7A13A1B03515E0020DEF9 /* TFHppleElement.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TFHppleElement.m; sourceTree = "<group>"; };
+		E9B7A13B1B03515E0020DEF9 /* XPathQuery.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XPathQuery.h; sourceTree = "<group>"; };
+		E9B7A13C1B03515E0020DEF9 /* XPathQuery.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XPathQuery.m; sourceTree = "<group>"; };
+		E9B7A1411B0351A90020DEF9 /* Node.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Node.h; sourceTree = "<group>"; };
+		E9B7A1421B0351A90020DEF9 /* Node.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Node.m; sourceTree = "<group>"; };
+		E9B7A1441B03555B0020DEF9 /* Graph.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Graph.h; sourceTree = "<group>"; };
+		E9B7A1451B03555B0020DEF9 /* Graph.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Graph.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +72,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E96CC2E31B061458004AD04E /* QuartzCore.framework in Frameworks */,
+				E9B7A1351B0351230020DEF9 /* libxml2.dylib in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -60,9 +87,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		CEC079501B05281100A225B8 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				CEC079511B05282C00A225B8 /* NodeView.h */,
+				CEC079521B05282C00A225B8 /* NodeView.m */,
+				E92E3AB31B0A07D100CF209C /* LineView.h */,
+				E92E3AB41B0A07D100CF209C /* LineView.m */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
 		E9B7A1021B03509F0020DEF9 = {
 			isa = PBXGroup;
 			children = (
+				E96CC2E21B061458004AD04E /* QuartzCore.framework */,
+				E9B7A1341B0351230020DEF9 /* libxml2.dylib */,
 				E9B7A10D1B03509F0020DEF9 /* Graph */,
 				E9B7A1271B0350A00020DEF9 /* GraphTests */,
 				E9B7A10C1B03509F0020DEF9 /* Products */,
@@ -81,6 +121,9 @@
 		E9B7A10D1B03509F0020DEF9 /* Graph */ = {
 			isa = PBXGroup;
 			children = (
+				E9B7A1401B03517A0020DEF9 /* Model */,
+				E9B7A1361B03512C0020DEF9 /* Parse */,
+				CEC079501B05281100A225B8 /* View */,
 				E9B7A1121B03509F0020DEF9 /* AppDelegate.h */,
 				E9B7A1131B03509F0020DEF9 /* AppDelegate.m */,
 				E9B7A1151B03509F0020DEF9 /* ViewController.h */,
@@ -117,6 +160,30 @@
 				E9B7A1291B0350A00020DEF9 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E9B7A1361B03512C0020DEF9 /* Parse */ = {
+			isa = PBXGroup;
+			children = (
+				E9B7A1371B03515E0020DEF9 /* TFHpple.h */,
+				E9B7A1381B03515E0020DEF9 /* TFHpple.m */,
+				E9B7A1391B03515E0020DEF9 /* TFHppleElement.h */,
+				E9B7A13A1B03515E0020DEF9 /* TFHppleElement.m */,
+				E9B7A13B1B03515E0020DEF9 /* XPathQuery.h */,
+				E9B7A13C1B03515E0020DEF9 /* XPathQuery.m */,
+			);
+			name = Parse;
+			sourceTree = "<group>";
+		};
+		E9B7A1401B03517A0020DEF9 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				E9B7A1411B0351A90020DEF9 /* Node.h */,
+				E9B7A1421B0351A90020DEF9 /* Node.m */,
+				E9B7A1441B03555B0020DEF9 /* Graph.h */,
+				E9B7A1451B03555B0020DEF9 /* Graph.m */,
+			);
+			name = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -221,7 +288,14 @@
 			files = (
 				E9B7A1171B03509F0020DEF9 /* ViewController.m in Sources */,
 				E9B7A1141B03509F0020DEF9 /* AppDelegate.m in Sources */,
+				E9B7A1431B0351A90020DEF9 /* Node.m in Sources */,
 				E9B7A1111B03509F0020DEF9 /* main.m in Sources */,
+				E92E3AB51B0A07D100CF209C /* LineView.m in Sources */,
+				E9B7A1461B03555B0020DEF9 /* Graph.m in Sources */,
+				CEC079531B05282C00A225B8 /* NodeView.m in Sources */,
+				E9B7A13D1B03515E0020DEF9 /* TFHpple.m in Sources */,
+				E9B7A13F1B03515E0020DEF9 /* XPathQuery.m in Sources */,
+				E9B7A13E1B03515E0020DEF9 /* TFHppleElement.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -299,6 +373,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "$(SDKROOT)/usr/include/libxml2";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -336,6 +411,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "$(SDKROOT)/usr/include/libxml2";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
@@ -350,6 +426,7 @@
 				INFOPLIST_FILE = Graph/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
@@ -360,6 +437,7 @@
 				INFOPLIST_FILE = Graph/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
@@ -416,6 +494,7 @@
 				E9B7A1301B0350A00020DEF9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E9B7A1311B0350A00020DEF9 /* Build configuration list for PBXNativeTarget "GraphTests" */ = {
 			isa = XCConfigurationList;
@@ -424,6 +503,7 @@
 				E9B7A1331B0350A00020DEF9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
